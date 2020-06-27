@@ -1,0 +1,220 @@
+body{
+text-align: center;
+}
+
+#Navbar{
+  padding: 10PX;
+font-family: 'Muli', sans-serif;
+font-size: 1.2rem;
+background-color: #f7f7f7;
+}
+ ul{
+   text-decoration: none;
+   list-style: none;
+ }
+ ul li{
+    display: inline-block;
+    padding-left: : 17px;
+    padding-right: 20px;
+ }
+
+ ul li a{
+   color: black;
+ }
+
+ ul li a:hover{
+   font-weight: bold;
+   color: #272343;
+   text-decoration:line-through;
+ }
+
+#Header{
+  padding: 50px auto;
+  background-image:linear-gradient(rgba(0,0,0,0.09),rgba(0,0,0,0.09)), url(abc.png);
+background-size: cover;
+  background-position: center;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1{
+  padding-top: 240px;
+  color: white;
+  font-size: 4rem;
+  font-family: 'Galada', cursive;
+}
+
+h4{
+  color: white;
+  font-size: 1rem;
+}
+
+#About{
+  margin:150px auto 1px;
+  height: 200px;
+}
+@media (min-width: 10px) and (max-width: 990px) {
+  .info{
+    width: 100%;
+    margin: auto;
+  }
+  #About{
+    margin:100px auto  160px;
+  }
+  h2{
+    color: #ff971d;
+    padding: 25px auto;
+}
+#Pictures{
+  margin-top:0;
+  padding: 50px auto;
+  background-image:linear-gradient(rgba(0,0,0,0.09),rgba(0,0,0,0.09)), url(cba.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+h2{
+  color: #ff971d;
+  padding: 25px auto;
+}
+
+.info{
+  width: 40%;
+  margin: auto;
+  padding-bottom:60px;
+}
+ #Pictures{
+   /* margin-top:150px; */
+   padding: 50px auto;
+   background-image:linear-gradient(rgba(0,0,0,0.09),rgba(0,0,0,0.09)), url(cba.png);
+   background-size: cover;
+   background-position: center;
+   height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #Testimonial{
+   margin:100px auto;
+   padding: 100px auto;
+   font-size: 1.5rem;
+   font-family: 'Concert One', cursive;
+ }
+
+p{
+  /* width:40%; */
+  margin: auto;
+}
+
+#Contact{
+  padding: 50px auto;
+  background-image:linear-gradient(rgba(0,0,0,0.09),rgba(0,0,0,0.09)), url(def.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Enquiry{
+  background-color: white;
+  position: relative;
+  top: 40px;
+  width: 40%;
+  margin: auto;
+  height 100px;
+  padding: 50px;
+  border-radius: 1%;
+  border: 1px solid black;
+}
+
+@media (min-width: 10px) and (max-width: 990px) {
+  .Enquiry{
+    background-color: white;
+    position: relative;
+    top: 15px;
+    width: 80%;
+    margin: auto;
+    height 100px;
+    padding: 50px;
+    border-radius: 1%;
+    border: 1px solid black;
+  }
+}
+
+.con{
+  padding-bottom: 10px;
+  font-family: 'Concert One', cursive;
+  font-weight: 600;
+}
+
+.ppp{
+  font-family: font-family: 'Muli', sans-serif;
+}
+
+.button {
+  transition-duration: 0.4s;
+  width: 50%;
+  background-color: #00FFFF;
+ border: none;
+ color: white;
+ margin: 10px auto;
+ padding: 15px auto;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ height:50px;
+}
+
+.button:hover {
+  background-color:#00FF00;
+  color: white;
+}
+
+input{
+  width: 50%;
+  height: 50px;
+  margin: 15px auto;
+  border: 1px ridge black;
+  padding-left: 10px;
+}
+
+#Footer{
+  height: 200px;
+font-family: 'Muli', sans-serif;
+font-size: 1rem;
+font-weight: bold;
+padding: 50px auto;
+}
+
+@media (min-width: 10px) and (max-width: 990px) {
+  .icon{
+    margin:10px;
+    margin-top: 50px;
+  }
+  .Copyright{
+    width: auto;
+  }
+}
+.Copyright{
+  width: auto;
+}
+
+.icon{
+  margin:20px;
+  margin-top: 100px;
+}
